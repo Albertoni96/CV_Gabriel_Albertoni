@@ -1,0 +1,68 @@
+*{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'montserrat', serif;
+}
+
+#header{
+    background-color: rgb(80, 226, 178);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Lora", serif;
+}
+#name{
+    text-transform: uppercase;
+    font-family: "Lora", serif;
+    text-align: center;
+    background-color: white;
+    width: 800px;
+    margin: 0px auto;
+}
+
+h1, h4 {
+    font-family: "Lora", serif;
+    text-transform: uppercase;
+}
+
+h4{
+    text-decoration: underline;
+}
+
+i{
+    color: rgb(80, 226, 178) ;
+    width: 30px;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+    list-style-position: initial;
+}
+
+#sidebar{
+    display: grid;
+    grid-template-columns: 43% auto;
+    grid-column-gap: 20px;
+}
+
+#contentLeft, #contentRight{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'montserrat', serif;
+    margin: 0px;
+}
+
+.card h5, h6{
+    margin:0px 0px 0px 15px
+}
+
+#name h1, #profissao{
+    margin: 0px
+}
